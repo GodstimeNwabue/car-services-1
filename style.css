@@ -183,6 +183,14 @@
         background-size: cover;
         min-width: 100%;
     }
+
+    .justify-between {
+        flex-direction: column;
+    }
+
+    #offers-section .offers .offer-box {
+        min-width: 100%;
+    }
 }
 
 /*Tablet view on hero section*/
