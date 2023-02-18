@@ -60,7 +60,7 @@ Structuring and using layout
 Please send me a message at [Godstime Nwabue](https://linktr.ee/godstimenwabue). This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 ## Project live
-[Frontend Mentor | Four card feature section](https://godstimenwabue.github.io/four-card-feature-section/)
+[Kodecamp challenge | Car services section](https://godstimenwabue.github.io/car-services-1/)
 
 ## Connect with me
 
