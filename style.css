@@ -76,6 +76,7 @@
         display: flex;
         justify-content: center;
         padding-top: 28px;
+        gap: 10px;
     }
     .right-section ul {
         flex-wrap: wrap;
@@ -190,6 +191,13 @@
 
     #offers-section .offers .offer-box {
         min-width: 100%;
+    }
+}
+
+/*What we offer responsiveness*/
+@media (max-width: 860px) and (min-width: 450px) {
+    .offer-box_mq {
+        min-width: 48%;
     }
 }
 
