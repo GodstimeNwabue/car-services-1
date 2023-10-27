@@ -595,14 +595,37 @@
         margin-top: 1.188rem;
     }
 }
+@media (max-width: 500px) {
+    #tools-section {
+        flex-direction: column;
+        height: 80vh;
+    }
+    #tools-section .car-section {
+        width: 100%;
+    }
+    #tools-section .orange-section {
+        width: 100%;
+    }
+    
+    #tools-section .auto-section {
+        width: 100%;
+    }
+}
 #experience-section {
     padding: 80px 0;
     background: #e2e6e9;
 }
 
 #experience-section .flex {
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
 
+@media (max-width: 560px) {
+    #experience-section .flex {
+        gap: 20px;
+        text-align: center;
+    }
 }
 
 #experience-section .flex-experience h2 {
@@ -681,7 +704,7 @@
 
 #our-service {
     background: #F2F2F2;
-    padding: 80px 0;
+    /* padding: 80px 0; */
     min-height: 50vh;
 }
 
@@ -714,7 +737,7 @@
 #our-service .our-box .image-box {
     background: #fff;
     min-height: 400px;
-    width: 33%;
+    /* width: 33%; */
     padding: 50px;
 }
 
@@ -794,6 +817,7 @@
     font-size: 18px;
     margin-top: 10px;
     font-weight: 500;
+    color: #939191;
 }
 
 #frequent-section .text-section .box p {
